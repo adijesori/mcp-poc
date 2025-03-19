@@ -6,18 +6,17 @@ It uses the following workspaces:
 
 In order to run it:
 1. Clone the repository
-2. Run `npm i`
-3. Run `npm run build --workspaces`.
-4. Running alerts with MCP inspector:
-`npx @modelcontextprotocol/inspector node weather-alerts-stdio/build/index.js`
-5. Running forecast with MCP inspector:
-`npx @modelcontextprotocol/inspector node weather-forecast-stdio/build/index.js`
-6. Running SSE with inspector:
-In one terminal:
+2. Run `npm i && npm run build --workspaces`
+3. Running alerts with MCP inspector:
+- `npx @modelcontextprotocol/inspector node weather-alerts-stdio/build/index.js`
+4. Running forecast with MCP inspector:
+- `npx @modelcontextprotocol/inspector node weather-forecast-stdio/build/index.js`
+5. Running SSE with inspector:
+- In one terminal:
 `npm start -w weather-http`
-In other terminal:
+- In other terminal:
 `npx @modelcontextprotocol/inspector`
-7. In order to use it in [Claude Desktop](https://claude.ai/download):
+6. In order to use it in [Claude Desktop](https://claude.ai/download):
 - Open your Claude for Desktop App configuration at `~/Library/Application Support/Claude/claude_desktop_config.json` in a text editor. Make sure to create the file if it doesn't exist
 - Add this content to the file (Make sure to replace `/ABSOLUTE/PATH/TO/PARENT/FOLDER` with the correct path):
 ```json
