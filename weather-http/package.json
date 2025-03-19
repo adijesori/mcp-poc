@@ -1,0 +1,20 @@
+{
+  "name": "weather-http",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "start": "npm run build && npx -y supergateway --stdio \"node build/index.js\""
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "express": "^5.0.1",
+    "ts-node": "^10.9.2",
+    "weather-utils": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}

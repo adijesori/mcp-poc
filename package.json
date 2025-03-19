@@ -1,0 +1,19 @@
+{
+  "prettier": "@ww/prettier-config",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@ww/prettier-config": "^1.5.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  },
+  "workspaces": [
+    "weather-http",
+    "weather-alerts-stdio",
+    "weather-forecast-stdio",
+    "weather-utils"
+  ]
+}

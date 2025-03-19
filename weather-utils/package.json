@@ -1,0 +1,9 @@
+{
+  "name": "weather-utils",
+  "version": "1.0.0",
+  "types": "src/index.ts",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc"
+  }
+}
